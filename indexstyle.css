@@ -1,0 +1,111 @@
+body {
+  background-color: #F0FFFF;
+  background-size: auto 130%;
+  text-align: center;
+}
+
+
+li {
+  display: inline;
+  padding:
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #a20c52;
+  text-shadow: 4px 4px #000000;
+}
+
+
+h2 {
+  font-size: 35px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FAFAD2;
+  padding-top: 40px;
+  text-shadow: 2px 2px #000000;
+}
+
+
+h1.subtitle {
+  font-family: 'Special Elite', cursive;
+  padding: 50px;
+  font-size: 30px;
+
+}
+
+p.before {
+  padding: 80px 0px 10px 0px;
+  font-size: 23px;
+  font-family: 'Gudea', sans-serif;
+}
+
+.after {
+  font-size: 15px;
+  font-family: 'Gudea', sans-serif;
+  padding: 30px 0px 150px 0px;
+}
+
+div#idea {
+  background-image: url('./images/pic2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 750px;
+  padding-top: 17%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+}
+
+#sq {
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px #fff;
+  color: black;
+  padding: 20px;
+  background-size: cover;
+  border-color: white;
+  border-radius: 212px;
+  border-style: hidden;
+  border-width: 30px;
+  padding-left: 30px;
+  height: 200px;
+  width: 200px;
+}
+.five {
+  padding-left: 40%;
+}
+.northcentral {
+  background-image: url('./images/usa.jpg');
+  padding-top: 40px;
+}
+
+.south {
+  background-image: url('./images/bsas.jpg');
+
+}
+
+.europe {
+  background-image: url('./images/bcn.jpg');
+
+}
+
+.meast {
+  background-image: url('./images/israel.jpg');
+
+}
+
+.input {
+  padding: 40px 0px 0px 0px;
+}
+
+
+@media (min-width: 37.5em max-width: 500px) {
+h1.title {
+ font-size: 36px
+}
+li {
+  padding: 50px;
+}
+}
