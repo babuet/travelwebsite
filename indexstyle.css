@@ -3,10 +3,6 @@ body {
   background-size: auto 130%;
   text-align: center;
 }
-
-
-
-
 h1.title {
   font-size: 70px;
   font-family: 'Cabin Sketch', cursive;
@@ -91,8 +87,9 @@ div#idea {
 
 }
 
-.input {
-  padding: 40px 0px 0px 0px;
+form {
+  width: 500px;
+  text-align: center;
 }
 
 
