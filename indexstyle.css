@@ -20,15 +20,21 @@ h1.title {
   font-size: 40px;
   font-family: 'Special Elite', cursive;
   padding: 50px;
-
+  text-shadow: 2px 2px #a6a6a6;
 }
 
 .op {
     font-size: 30px;
     font-family: 'Special Elite', cursive;
 }
-p.before {
-  padding: 80px 0px 10px 0px;
+p.sentence {
+  font-size: 18px;
+  font-family: 'Gudea', sans-serif;
+  padding: 10px 0px 60px 0px;
+}
+
+.before {
+  padding: 80px 0px 50px 0px;
   font-size: 23px;
   font-family: 'Gudea', sans-serif;
 }
@@ -44,7 +50,7 @@ div#idea {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  height: 750px;
+  height: 830px;
   padding-top: 17%;
   padding-bottom: 100px;
 }
@@ -52,44 +58,59 @@ div#idea {
 #sq {
   font-size: 35px;
   font-family: 'Montserrat', sans-serif;
-  text-shadow: 1px 1px #fff;
+  text-shadow: 2px 2px #fff;
   color: black;
-  padding: 20px;
   background-size: cover;
   border-color: white;
-  border-radius: 212px;
+  border-radius: 100px;
   border-style: hidden;
   border-width: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.22), 0 6px 20px 0 rgba(0, 0, 0, 0.28);
   padding-left: 30px;
   height: 210px;
   width: 210px;
 }
 .five {
   padding-left: 40%;
+  padding-right: 40%;
+}
+.one {
+  padding-bottom: 60px;
+}
+.two {
+  padding-bottom: 60px;
+}
+.three {
+  padding-bottom: 60px;
+}
+.four {
+  padding-bottom: 60px;
 }
 .northcentral {
   background-image: url('./images/usa.jpg');
-  padding-top: 40px;
+  padding: 25px 30px 0px 0px;
 }
-
 .south {
   background-image: url('./images/bsas.jpg');
-
+  padding: 65px 25px 0px 0px;
 }
 
 .europe {
   background-image: url('./images/bcn.jpg');
-
+  padding: 85px 25px 0px 0px;
 }
+
 
 .meast {
   background-image: url('./images/israel.jpg');
+  padding: 65px 33px 0px 0px;
 
 }
 
-form {
-  width: 500px;
-  text-align: center;
+.center_div{
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 400px;
 }
 
 
