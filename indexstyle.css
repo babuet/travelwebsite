@@ -9,6 +9,7 @@ h1.title {
   color: #a20c52;
   text-shadow: 4px 4px #000000;
 }
+
 .sub {
     font-size: 45px;
     font-family: 'Shadows Into Light Two', cursive;
@@ -97,7 +98,7 @@ div#idea {
 
 .europe {
   background-image: url('./images/bcn.jpg');
-  padding: 85px 25px 0px 0px;
+  padding: 85px 24px 0px 0px;
 }
 
 
