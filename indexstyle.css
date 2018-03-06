@@ -31,19 +31,21 @@ h1.title {
 p.sentence {
   font-size: 18px;
   font-family: 'Gudea', sans-serif;
-  padding: 10px 0px 60px 0px;
+  padding: 10px 50px 60px 50px;
 }
 
 .before {
-  padding: 80px 0px 50px 0px;
+  padding: 80px 50px 50px 50px;
   font-size: 23px;
   font-family: 'Gudea', sans-serif;
 }
 
 .after {
+  display: flex;
+  justify-content: center;
   font-size: 15px;
   font-family: 'Gudea', sans-serif;
-  padding: 30px 0px 150px 0px;
+  padding: 30px 50px 150px 50px;
 }
 
 div#idea {
@@ -56,7 +58,7 @@ div#idea {
   padding-bottom: 100px;
 }
 
-#sq {
+#bullet-style {
   font-size: 35px;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px #fff;
@@ -71,27 +73,22 @@ div#idea {
   height: 210px;
   width: 210px;
 }
-.five {
-  padding-left: 40%;
-  padding-right: 40%;
+
+#circles {
+  padding: 30px;
 }
-.one {
-  padding-bottom: 60px;
+.bullets {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0px 40px 60px 40px;
 }
-.two {
-  padding-bottom: 60px;
-}
-.three {
-  padding-bottom: 60px;
-}
-.four {
-  padding-bottom: 60px;
-}
-.northcentral {
+
+.north-central {
   background-image: url('./images/usa.jpg');
   padding: 25px 30px 0px 0px;
 }
-.south {
+.south-america {
   background-image: url('./images/bsas.jpg');
   padding: 65px 25px 0px 0px;
 }
@@ -102,7 +99,7 @@ div#idea {
 }
 
 
-.meast {
+.middle-east {
   background-image: url('./images/israel.jpg');
   padding: 65px 33px 0px 0px;
 
@@ -115,9 +112,11 @@ div#idea {
 }
 
 
-@media (min-width: 37.5em max-width: 500px) {
-h1.title {
- font-size: 36px
-}
+@media only screen and (max-width: 700px) {
+  .bullets {
+  display: block | flex;
+  justify-content: center;
 
+
+}
 }
