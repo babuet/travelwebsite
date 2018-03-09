@@ -1,0 +1,43 @@
+.social {
+  text-align: center;
+  font-size: 2.5em;
+  color: #555;
+  overflow: hidden;
+}
+.social a {
+  color: inherit;
+  text-decoration: none;
+}
+.content-author {
+  padding: 80px 30px 50px 50px;
+}
+.content-author__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.content-author__name {
+  font-size: 40px;
+  font-family: 'Special Elite', cursive;
+  padding: 50px;
+  text-shadow: 2px 2px #a6a6a6;
+}
+.content-author__title {
+  font-size: 18px;
+  font-family: 'Gudea', sans-serif;
+  padding: 0px 50px 60px 50px;
+}
+.container-fluid {
+  display: flex;
+  width: 100%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
