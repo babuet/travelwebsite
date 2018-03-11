@@ -4,12 +4,13 @@
   font-size: 2.5em;
   color: #555;
   overflow: hidden;
+  padding-bottom: 30px;
 }
 .social a {
   color: inherit;
   text-decoration: none;
 }
-#contet-author {
+#content-author {
   margin: 15%;
 }
 #content-author__image {
@@ -32,12 +33,19 @@
   font-size: 30px;
   font-family: 'Special Elite', cursive;
 }
+/**
 .container-fluid {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+**/
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .fa:hover {
     opacity: 0.9;
 }
