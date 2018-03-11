@@ -1,3 +1,10 @@
+.navbar-nav {
+
+}
+.navbar-nav a:hover {
+    background-color: yellow;
+}
+
 body {
   background-color: #F0FFFF;
   background-size: auto 130%;
@@ -24,7 +31,7 @@ h1.title {
   text-shadow: 2px 2px #a6a6a6;
 }
 
-.op {
+.second-line {
     font-size: 30px;
     font-family: 'Special Elite', cursive;
 }
