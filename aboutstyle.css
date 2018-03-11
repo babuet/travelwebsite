@@ -1,3 +1,4 @@
+
 .social {
   text-align: center;
   font-size: 2.5em;
@@ -8,40 +9,51 @@
   color: inherit;
   text-decoration: none;
 }
-.content-author {
-  padding: 80px 30px 50px 50px;
+#contet-author {
+  margin: 15%;
 }
-.content-author__image {
+#content-author__image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 5px solid;
 }
-
-.content-author__name {
+#content-author__name {
   font-size: 40px;
   font-family: 'Special Elite', cursive;
   padding: 50px;
   text-shadow: 2px 2px #a6a6a6;
 }
-.content-author__title {
+#content-author__title {
   font-size: 18px;
   font-family: 'Gudea', sans-serif;
+<<<<<<< HEAD
 
+=======
+}
+#second-line {
+  font-size: 30px;
+  font-family: 'Special Elite', cursive;
+>>>>>>> f59a2feeda1364598aaf806e1625258aabb6c762
 }
 .container-fluid {
-  display: flex;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+<<<<<<< HEAD
 .row {
   display: flex;
   justify-content: space-between;
 }
 
+=======
+>>>>>>> f59a2feeda1364598aaf806e1625258aabb6c762
 .fa:hover {
     opacity: 0.9;
 }
-
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
