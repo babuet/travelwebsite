@@ -27,11 +27,15 @@
 .content-author__title {
   font-size: 18px;
   font-family: 'Gudea', sans-serif;
-  padding: 0px 50px 60px 50px;
+
 }
 .container-fluid {
   display: flex;
   width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .fa:hover {
