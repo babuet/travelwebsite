@@ -16,12 +16,32 @@ h1.title {
   text-shadow: 4px 4px #000000;
   text-align: center;
 }
+ul {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+  }
+  li {
+    display: block;
+    padding: 0px 10px 0px 10px;
+  }
 .featurette-img {
   margin: 10%;
   height: 400px;
   width: 400px;
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .row-featurette {
+  margin: 10%;
   padding: 10%;
+}
+#text {
+  padding: 40px;
+}
+#image {
+  padding: 40px;
+}
+.page-footer {
+  width: 100%;
+  text-align: center;
 }
