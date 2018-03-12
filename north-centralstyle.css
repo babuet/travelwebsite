@@ -1,12 +1,27 @@
+body {
+  background-color: #F0FFFF;
+  background-size: auto 130%;
+}
 .navbar {
-  list-style-position: outside;
   margin: 0;
   padding: 0;
-  overflow: scroll;
-  position: fixed;
+  position: inherit;
   top: 0;
   width: 100%;
 }
-h2 {
-  color: blue;
+h1.title {
+  font-size: 70px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #a20c52;
+  text-shadow: 4px 4px #000000;
+  text-align: center;
+}
+.featurette-img {
+  margin: 10%;
+  height: 400px;
+  width: 400px;
+    border-radius: 50%;
+}
+.row-featurette {
+  padding: 10%;
 }
