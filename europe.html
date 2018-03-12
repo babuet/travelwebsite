@@ -1,29 +1,14 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Cabin+Sketch|Gudea|Montserrat|Raleway|Sacramento|Shadows+Into+Light|Shadows+Into+Light+Two|Special+Elite" rel="stylesheet">
-    <link href='./bootstrap_exercise-master/css/bootstrap.css' rel='stylesheet'>
-    <link href='./.css' rel='stylesheet'>
-    <script src='./js/jquery-3.32.min.js'></script>
-    <script src='./bootstrap_3.3.7-dist/js/bootstrap.min.js'></script>
-    <style>
-    .florence {
-      height: 450px;
-      background-image: url("./images/florence.jpg");
-      max-width: 450px;
-      background-size: cover;
-    }
-    .london {
-      background-image: url("./images/london.jpg");
-      height: 450px;
-      background-size: cover;
-      background-position: center;
-      max-width: inherit;
-    }
-    </style>
+ <head>
+   <title>Your next adventure</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Cabin+Sketch|Gudea|Montserrat|Raleway|Sacramento|Shadows+Into+Light|Shadows+Into+Light+Two|Special+Elite" rel="stylesheet">
+   <link href='./bootstrap_exercise-master/css/bootstrap.css' rel='stylesheet'>
+   <link href='./indexstylecss' rel='stylesheet'>
+   <link href='./europestyle.css' rel='stylesheet'>
+   <script src='./js/jquery-3.32.min.js'></script>
+   <script src='./bootstrap_3.3.7-dist/js/bootstrap.min.js'></script>
   </head>
   <body>
     <header>
@@ -51,50 +36,64 @@
    </div>
  </nav>
  </header>
- <h1>Europe</h1>
- <h2>London</h2>
- <div class="london">
-   <h3>For architectural buffs</h3>
- </div>
-<p> London, also known as Londinium by the Romans, is a majestic place.
-   A mixture of Modern, Medieval, and Reneissance architecture. A city full of history.
-   Many of the best-designed buildings in Europe and the world can be found in London.
-   As well as obvious architectural landmarks like St. Paul's Cathedral, Big Ben, and
-   Westminster Abbey, the city is home to a plethora of impeccably designed buildings and structures.
- </p>
-          <h4>We recommend:</h4>
+
+ <h1 class='title'>Europe</h1>
+
+ <div class='container'>
+ <div class="row featurette">
+           <div class="col-md-7" id='text'>
+ <h2 class="featurette-heading">Florence<span class="text-muted">For the artsy</span></h2>
+<p class='lead'>The cradle of Reneissance, Florence! It's a city for all! You will leave this
+   city inspired.</br>
+  On one corner a woman strums the strings of a guitar, diagnolly across you find
+  a man using the asphalt as his canvas, and a couple steps down you look up and witness Brunelleschi's
+  dome and Giotto's Bell Tower, pieces of art that record moments of greatness. Whether you admire
+  Michelangelo's sculpture of david or fall in awe with Boticelli's "The Birth Of Venus," it will
+  dawn upon that all these master pieces are the result of a lot of small things done well everyday,
+  and that you are capable of greatness too!</p>
+   <h4>We recommend:</h4>
                 <ul>
                   <li></li>
                   <li></li>
                   <li></li>
                   <li></li>
                 </ul>
- <h2>Florence</h2>
- <div class="florence">
-   <h3>For the artsy</h3>
- </div>
- <p> The cradle of Reneissance, Florence! It's a city for all! You will leave this
-    city inspired. On one corner a woman strums the strings of a guitar, diagnolly across you find
-    a man using the asphalt as his canvas, and a couple steps down you look up and witness Brunelleschi's
-    dome and Giotto's Bell Tower, pieces of art that record moments of greatness. Whether you admire
-    Michelangelo's sculpture of david or fall in awe with Boticelli's "The Birth Of Venus," it will
-    dawn upon that all these master pieces are the result of a lot of small things done well everyday,
-    and that you are capable of greatness too!
-  </p>
+             </div>
+ <div class="col-md-5" id='image'>
+<img class='featurette-img' src='./images/florence.jpg' alt='europe'>
+</div>
+</div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+<div class="col-md-5 order-md-1" id='image'>
+        <img class='featurette-img' src='./images/ldn.jpg' alt='europe'>
+</div>
+<div class='container'>
+<div class="row featurette">
+          <div class="col-md-7" id='text'>
+<h2 class="featurette-heading">London<span class="text-muted">For architectural buffs</span></h2>
+ <p class='lead'> London, also known as Londinium by the Romans, is a majestic place.</br> A mixture of Modern, Medieval, and Reneissance architecture. A city full of history.
+    Many of the best-designed buildings in Europe and the world can be found in London.
+    As well as well-known architectural landmarks like St. Paul's Cathedral, Big Ben, and
+    Westminster Abbey, the city is home to a plethora of impeccably designed buildings and structures.</p>
            <h4>We recommend:</h4>
              <ul>
                <li></li>
                <li></li>
                <li></li>
                <li></li>
-             </ul>
-               <footer class="page-footer center-on-small-only blue-grey lighten-5 pt-0">
-                     <div class="footer-copyright">
-                       <div class="container-fluid">
-                         <strong>© 2017 Copyright: <a href="index.html">Your next adventure | 2018</strong></a>
-                       </div>
-                     </div>
-                 </div>
-               </footer>
+            </ul>
+          </div>
+        </div>
+      </div>
+            <footer class="page-footer center-on-small-only blue-grey lighten-5 pt-0">
+             <div class="footer-copyright">
+               <div class="container-fluid">
+                 <strong>© 2017 Copyright: <a href="#">Your next adventure | 2018</strong></a>
+             </div>
+            </div>
+            </footer>
+
   </body>
-</html>
+  </html>
