@@ -54,7 +54,10 @@ ul {
   display: block;
   background-color: lightgrey;
   border-bottom: 2px solid #fff;
-  width: cover;
+  width: 100%;
+}
+input {
+  width: 90%;
 }
 
 a {
