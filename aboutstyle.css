@@ -35,7 +35,7 @@
   padding: 25px;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 550px) {
 /*
 .container-fluid {
   width: 100%;
@@ -69,3 +69,7 @@
 }
 }
 **/
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
