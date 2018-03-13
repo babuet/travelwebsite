@@ -109,4 +109,6 @@ $(window).load(function() {
 
  })
 
- 
+ .navbar-fixed-top {
+   border-radius: 0;
+ }
