@@ -10,7 +10,6 @@ body {
   width: 100%;
 }
 
-}
 h1.title {
   font-size: 70px;
   font-family: 'Cabin Sketch', cursive;
@@ -19,12 +18,12 @@ h1.title {
   text-align: center;
   padding-top: 50px;
 }
-ul {
+.list {
     padding: 10px;
     background: rgba(0, 0, 0, 0.15);
     border-radius: 40px;
   }
-  li {
+#recommended {
     display: block;
     padding: 0px 10px 0px 10px;
   }
