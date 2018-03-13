@@ -9,4 +9,9 @@ $(window).load(function() {
   var text = $("#input").val();
   $("#list").append('<li>' + text + '</li>');
 });
+$(".moveUp").click(function() {
+  var thisLine = $(this).parent();
+  var prevLine = thisLine.prev();
+  prevLine.before(thisLine);
+});
 })

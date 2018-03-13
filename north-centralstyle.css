@@ -48,3 +48,18 @@ ul {
   width: 100%;
   text-align: center;
 }
+body {
+  font-family: "Arial", sans-serif;
+}
+
+li {
+  color: #7e7e7e;
+  display: block;
+  background-color: lightgrey;
+  border-bottom: 2px solid #fff;
+  width: 200px;
+}
+
+a {
+  color: #66B2BA;
+}
