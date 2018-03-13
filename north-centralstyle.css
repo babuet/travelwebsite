@@ -9,12 +9,15 @@ body {
   top: 0;
   width: 100%;
 }
+
+}
 h1.title {
   font-size: 70px;
   font-family: 'Cabin Sketch', cursive;
   color: #a20c52;
   text-shadow: 4px 4px #000000;
   text-align: center;
+  padding-top: 50px;
 }
 ul {
     padding: 10px;
