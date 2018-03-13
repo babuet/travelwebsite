@@ -22,6 +22,9 @@ h1.title {
     background: rgba(0, 0, 0, 0.15);
     border-radius: 40px;
   }
+.position {
+  padding-top: 30%;
+}
 #recommended {
   font-family: 'Gudea', sans-serif;
     display: block;
