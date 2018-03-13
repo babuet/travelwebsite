@@ -18,11 +18,12 @@ h1.title {
   padding-top: 80px;
 }
 .list {
-    padding: 10px;
+    padding: 15px;
     background: rgba(0, 0, 0, 0.15);
     border-radius: 40px;
   }
 #recommended {
+  font-family: 'Gudea', sans-serif;
     display: block;
     padding: 0px 10px 0px 10px;
   }
@@ -49,17 +50,15 @@ h1.title {
 
 }
 .page-footer {
-  padding-top: 30px;
+  padding-top: 90px;
   width: 100%;
   text-align: center;
 }
 
-.recs {
-  color: #7e7e7e;
-  display: block;
-  background-color: lightgrey;
-  border-bottom: 2px solid #fff;
-  width: 100%;
+.featurette-heading {
+  font-family: 'Special Elite', cursive;
+  font-size: 34px;
+}
 }
 input {
   width: 90%;
@@ -69,6 +68,10 @@ a {
   color: #66B2BA;
 }
 @media (max-width: 500px) {
+  .featurette-img {
+    width: 70%;
+    height: 70%;
+  }
   #image {
     display: flex;
     justify-content: space-around;
