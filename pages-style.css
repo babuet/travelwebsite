@@ -64,7 +64,11 @@ body {
 a {
   color: #66B2BA;
 }
+
 @media (max-width: 500px) {
+  .position {
+    padding-top: 2px;
+  }
   .featurette-img {
     width: 70%;
     height: 70%;
