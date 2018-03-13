@@ -9,7 +9,7 @@ body {
   top: 0;
   width: 100%;
 }
-h1.title {
+.title {
   font-size: 70px;
   font-family: 'Cabin Sketch', cursive;
   color: #a20c52;
@@ -22,14 +22,6 @@ h1.title {
     background: rgba(0, 0, 0, 0.15);
     border-radius: 40px;
   }
-.position {
-  padding-top: 30%;
-}
-#recommended {
-  font-family: 'Gudea', sans-serif;
-    display: block;
-    padding: 0px 10px 0px 10px;
-  }
 .featurette-img {
   margin: 0 auto;
   height: 400px;
@@ -41,16 +33,6 @@ h1.title {
 .row-featurette {
   margin: 10%;
   padding: 10%;
-}
-#text {
-  padding: 40px;
-}
-#text-middle {
-  padding: 40px 40px 40px 50px;
-}
-#image {
-  padding-top: 0%;
-
 }
 .page-footer {
   padding-top: 90px;
@@ -65,10 +47,20 @@ h1.title {
   font-family: 'Special Elite', cursive;
   font-size: 34px;
 }
-input {
-  width: 90%;
+#text {
+  padding: 40px;
 }
-
+#text-middle {
+  padding: 40px 40px 40px 50px;
+}
+#image {
+  padding-top: 0%;
+}
+#recommended {
+  font-family: 'Gudea', sans-serif;
+    display: block;
+    padding: 0px 10px 0px 10px;
+}
 a {
   color: #66B2BA;
 }
