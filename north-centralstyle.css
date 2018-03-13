@@ -17,8 +17,8 @@ h1.title {
   text-align: center;
   padding-top: 80px;
 }
-.list {
-    padding: 15px;
+.cloud {
+    padding: 1px 5px 8px 0px;
     background: rgba(0, 0, 0, 0.15);
     border-radius: 40px;
   }
@@ -54,7 +54,10 @@ h1.title {
   width: 100%;
   text-align: center;
 }
-
+.rec {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
 .featurette-heading {
   font-family: 'Special Elite', cursive;
   font-size: 34px;
