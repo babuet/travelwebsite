@@ -93,11 +93,7 @@ div#idea {
 
 .north-central {
   background-image: url('./images/usa.jpg');
-  padding: 25px 30px 0px 0px;
-}
-.south-america {
-  background-image: url('./images/bsas.jpg');
-  padding: 65px 25px 0px 0px;
+  padding: 65px 30px 0px 0px;
 }
 
 .europe {
